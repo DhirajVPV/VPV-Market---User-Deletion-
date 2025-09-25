@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VPV Market - Delete Your User Account</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 600px; margin: 20px auto; padding: 20px; }
+        h1 { color: #333; }
+        .highlight { background: #e6f3ff; padding: 15px; border-left: 4px solid #007cba; }
+        form { margin-top: 20px; }
+        input, textarea, button { width: 100%; padding: 10px; margin: 5px 0; }
+        button { background: #007cba; color: white; border: none; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>VPV Market Account Deletion</h1>
+    <p>Welcome to the account deletion page for VPV Market, developed by Dhiraj Gongati.</p>
+
+    <div class="highlight" id="deletion-process">
+        <h2>How to Delete Your Account</h2>
+        <p><strong>In-App Deletion (Recommended):</strong> Open VPV Market, log in, and go to Profile Page > Delete Account button. Clicking the button will permanently delete all your data (e.g., profile, user credential) instantly.</p>
+        <p><strong>Alternative:</strong> If you can’t access the app, use the email dgongati@vpentures.com . We’ll verify your identity and delete your data within 30 days.</p>
+    </div>
+
+    <form action="https://formspree.io/f/[your-formspree-id]" method="POST">
+        <label for="email">Account Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="details">Additional Details (e.g., username):</label>
+        <textarea id="details" name="details" rows="3"></textarea>
+        <button type="submit">Submit Deletion Request</button>
+    </form>
+    <p>Contact us at info@vpventures.com for help.</p>
+</body>
+</html>
